@@ -6,15 +6,17 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+ 
     <div>
-      <h1>Rahul Pande is a brand + experience designer based in India.</h1>
-      <p>Find his work in branding, web and mobile below.</p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <div classname="Hero">
+       <div classname="HeroGroup">
+          <h1>Rahul Pande is a brand + experience designer based in India.</h1>
+          <p>Find his work in branding, web and mobile below.</p>
+          <Link to="/page-2/">Go to page 2</Link> <br />
+       </div>
+      </div>
     </div>
 
-  </Layout>
 )
 
 export default IndexPage
