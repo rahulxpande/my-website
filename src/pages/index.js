@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <h1>Rahul Pandey is a brand + experience designer based in India.</h1>
+      <h1>Rahul Pande is a brand + experience designer based in India.</h1>
       <p>Find his work in branding, web and mobile below.</p>
       <Link to="/page-2/">Go to page 2</Link> <br />
     </div>
